@@ -1,4 +1,4 @@
-🏥 SentiHealth: Clinical Intelligence & Security Platform
+🏥 SentiHealth Insights
 
 SentiHealth is a multi-tier, distributed informatics system designed for secure patient data management, predictive analytics, and regulatory compliance. The platform demonstrates the integration of low-level systems programming (C++) with high-level data science and machine learning (Python).
 
