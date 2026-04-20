@@ -10,12 +10,12 @@
 ### **1. Full System Pipeline**
 The following capture shows the **Distributed Handshake** between the Python client and the C++ Security Server, followed by the automated SQL analytical sweep.
 
-![Full Pipeline Scan](images/Full%20Pipeline%20Scan.png)
+![Full Pipeline Scan](Full%20Pipeline%20Scan.png)
 
 ### **2. Clinical Intelligence Dashboard**
 Our visualization layer converts relational data into actionable metrics, providing health officials with real-time geographic and condition-based trends.
 
-![BI Dashboard](images/BI%20Dashboard(Chart).png)
+![BI Dashboard (Chart)](BI%20Dashboard%28Chart%29.png)
 
 ---
 
