@@ -66,7 +66,7 @@ Open a terminal and compile + run the server:
 g++ security_server.cpp -o security_server -lws2_32
 ./security_server
 
-2. Launch the Application (Python)
+### 2. Launch the Application (Python)
 Open a second terminal and run:
 Bashpython - main.py
 
