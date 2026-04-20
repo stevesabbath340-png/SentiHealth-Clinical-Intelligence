@@ -4,12 +4,11 @@ SentiHealth is a multi-tier, distributed informatics system designed for secure 
 
 ## 📸 Screenshots
 
-### Full Pipeline Scan
-![Full Pipeline Scan](images/Full%20Pipeline%20Scan.png)
+![Full Pipeline Scan](Full%20Pipeline%20Scan.png)
 *Complete end-to-end view of the secure data ingestion, anonymization, processing, and predictive analytics pipeline.*
 
 ### BI Dashboard (Chart)
-![BI Dashboard (Chart)](images/BI%20Dashboard%28Chart%29.png)
+![BI Dashboard (Chart)](BI%20Dashboard%28Chart%29.png)
 *Interactive Business Intelligence dashboard showing real-time patient population trends, recovery predictions, and regional analytics.*
 
 🏗️ System Architecture
