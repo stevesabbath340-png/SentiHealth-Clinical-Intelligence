@@ -9,7 +9,7 @@ SentiHealth is a multi-tier, distributed informatics system designed for secure 
 *Complete end-to-end view of the secure data ingestion, anonymization, processing, and predictive analytics pipeline.*
 
 ### BI Dashboard (Chart)
-![BI Dashboard (Chart)](images/BI%20Dashboard(Chart).png)
+![BI Dashboard (Chart)](images/BI%20Dashboard%28Chart%29.png)
 *Interactive Business Intelligence dashboard showing real-time patient population trends, recovery predictions, and regional analytics.*
 
 🏗️ System Architecture
