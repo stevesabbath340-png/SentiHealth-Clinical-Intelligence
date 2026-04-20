@@ -1,0 +1,6 @@
+PatientID,Full_Name,Age,Gender,Region,Condition,Recovery_Days
+1001,John Smith,45,Male,North,Diabetes,12
+1002,Sarah Parker,29,Female,South,Flu,5
+1003,Mike Mokoena,62,Male,North,Hypertension,20
+1004,Lara Croft,31,Female,East,Flu,4
+1005,David Miller,50,Male,West,Diabetes,15
