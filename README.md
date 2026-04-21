@@ -14,6 +14,7 @@ In many South African clinical settings—particularly rural clinics—data secu
 Demonstrating the **Distributed Handshake** between the Python navigator and the C++ Security Server, followed by an automated SQL analytical sweep and AI training.
 
 ![Full Pipeline Scan](Full%20Pipeline%20Scan.png)
+![Complete Scan](Complete%20Scan.png)
 
 ### **2. Clinical Intelligence Dashboard**
 Converting relational SQL data into actionable metrics to track disease prevalence and recovery benchmarks.
