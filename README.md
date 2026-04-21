@@ -1,69 +1,74 @@
-# 🏥 SentiHealth: Clinical Intelligence & Security Platform
-### *Subtitle: SentiHealth Insights — Advanced Data Analytics & Predictive Care*
+# 🏥 SentiHealth Navigator
+### *Advanced Clinical Intelligence & Security Platform*
 
-**SentiHealth** is an enterprise-grade informatics platform bridging the gap between low-level systems security (**C++**) and high-level predictive health analytics (**Python**). This project demonstrates a robust, decoupled architecture designed for secure clinical decision support.
+---
+
+## 🌍 Impact Statement: Strengthening SA Healthcare
+In many South African clinical settings—particularly rural clinics—data security and reliable analytics are hampered by limited local infrastructure. **SentiHealth Navigator** addresses this by providing a high-speed, local-first C++ security layer that protects patient PII (Personally Identifiable Information) even in offline environments. The Python-based intelligence engine enables resource-constrained facilities to predict patient recovery and manage bed availability effectively, balancing **POPIA compliance** with high-performance clinical insights.
 
 ---
 
 ## 🖥️ System Preview
 
 ### **1. Full System Pipeline**
-The following capture shows the **Distributed Handshake** between the Python client and the C++ Security Server, followed by the automated SQL analytical sweep.
+Demonstrating the **Distributed Handshake** between the Python navigator and the C++ Security Server, followed by an automated SQL analytical sweep and AI training.
 
 ![Full Pipeline Scan](Full%20Pipeline%20Scan.png)
 
 ### **2. Clinical Intelligence Dashboard**
-Our visualization layer converts relational data into actionable metrics, providing health officials with real-time geographic and condition-based trends.
+Converting relational SQL data into actionable metrics to track disease prevalence and recovery benchmarks.
 
 ![BI Dashboard (Chart)](BI%20Dashboard%28Chart%29.png)
 
 ---
 
-## 🏗️ Technical Architecture
+## 🏗️ Technical Architecture & Workflow
 
-### **1. Security Vault (C++ Backend)**
-* **Technology:** Winsock2 TCP/IP Sockets.
-* **Function:** Acts as a standalone "Data Scrubber" to hash sensitive Patient PII (Personally Identifiable Information) in an isolated memory space before database insertion.
+### **User-Centric Workflows**
+| User Role | Workflow | Primary Benefit |
+| :--- | :--- | :--- |
+| **Hospital Admin** | Monitors the BI Dashboard for regional trends. | **Resource Allocation:** Smarter bed/staff management. |
+| **Clinical Staff** | Inputs anonymized vitals into the Navigator. | **Risk Assessment:** Using AI to predict recovery needs. |
+| **IT/SecOps** | Audits the C++ Security Vault and local logs. | **Compliance:** Ensures 100% adherence to POPIA/GDPR. |
 
-### **2. AI Intelligence Engine (Python - Upgraded)**
-* **Model:** **Random Forest Ensemble Regressor.**
-* **Why it matters:** Unlike standard decision trees, this model utilizes an **Ensemble Method** (100 individual trees) to prevent overfitting. It provides higher predictive accuracy for patient recovery times through multi-model voting.
-
-### **3. Data Persistence & Analytics**
-* **Database:** SQLite3 (Schema optimized for future PostgreSQL migration).
-* **Analytics:** Leverages **Pandas** for high-performance data manipulation and **Seaborn** for clinical-grade visualization.
-
----
-
-## 🚀 Key Features
-* **Forensic Audit Logging:** Every system event is captured in `audit_log.txt` to ensure compliance with **POPIA/GDPR** accountability standards.
-* **Ensemble Prediction:** Clinical-grade recovery forecasting based on age, regional environmental factors, and condition severity.
-* **Distributed Processing:** Separation of concerns between the security layer (C++) and the application layer (Python).
+### **The "Vault & Engine" Model**
+* **Security Vault (C++ Backend):** A standalone server using **Winsock2 TCP/IP Sockets**. It hashes sensitive data in an isolated memory space before it ever touches the database.
+* **Intelligence Engine (Python):** Orchestrates the **SQLite** relational database, **Pandas** analytics, and the predictive model.
 
 ---
 
-## 🛠️ Tech Stack
-| Tier | Technology |
-| :--- | :--- |
-| **Security/Network** | C++ (MinGW-w64), Winsock2 |
-| **Predictive AI** | Python (Scikit-Learn Ensemble Methods) |
-| **Data Science** | Pandas, NumPy |
-| **Relational DB** | SQLite3 |
-| **Visual BI** | Matplotlib, Seaborn |
+## 🚀 Key Technical Features
+
+### **1. AI Recovery Predictor (Random Forest Ensemble)**
+Upgraded from a basic decision tree to a **Random Forest Regressor** (100+ trees). This ensemble method provides higher predictive accuracy and stability by "voting" across multiple models to determine patient recovery outcomes.
+
+### **2. SQL-Driven Data Integrity**
+Utilizes a **Synthetic Clinical Dataset** modeled after anonymized benchmarks (inspired by MIMIC-III). The schema is optimized for portable SQLite execution but is fully compatible with enterprise RDBMS like **PostgreSQL**.
+
+### **3. Forensic Audit Trail**
+Maintains an immutable `audit_log.txt` that captures every user interaction and system handshake, ensuring a clear chain of custody for all clinical data.
 
 ---
 
-## 📋 Installation & Execution
+## 🧠 Key Learning Outcomes
+* **Cross-Language Interoperability:** Mastered socket communication between C++ and Python.
+* **Ensemble ML:** Learned to implement and tune Random Forest models for clinical regression.
+* **DevOps Mindset:** Integrated **Docker** containerization logic for microservice deployment.
+* **Regulatory Engineering:** Applied practical POPIA security principles to software design.
 
-### **1. Launch Security Server**
-```bash
-g++ security_server.cpp -o security_server -lws2_32
-./security_server
+---
 
-2. Launch Clinical Dashboard
-Bash
-pip install pandas scikit-learn matplotlib seaborn
-python main.py
+## 🛠️ Tech Stack & Deployment
+* **Languages:** Python 3.11, C++ (MinGW-w64)
+* **Libraries:** Pandas, Scikit-Learn (Ensemble), Matplotlib, Seaborn
+* **Cloud Ready:** Designed for **Azure Health Data Services** or **AWS HealthLake**.
+* **Containerization:** Includes a `Dockerfile` for standardized microservice deployment.
 
-🎓 Author's Note
-This project was developed to demonstrate proficiency in Systems Engineering and Data Science. While SQLite was utilized for portable demonstration, the architecture is designed to scale to enterprise RDBMS like PostgreSQL for population-scale health informatics.
+---
+
+## 📋 Quick Start
+1.  **Run Security Server:** `g++ security_server.cpp -o security_server -lws2_32 && ./security_server`
+2.  **Launch Navigator:** `pip install pandas scikit-learn matplotlib seaborn && python main.py`
+
+---
+*Developed as a showcase of Systems Engineering and Data Science proficiency.*
